@@ -1,0 +1,29 @@
+body {
+    overflow: hidden; 
+}
+
+.text-box {
+    padding: 10px; /* Adjust padding as needed */
+    margin: 10px; /* Adjust margin as needed */
+    background-color: rgba(42, 224, 209, 0.9); /* Adjust background color and opacity as needed */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust shadow properties as needed */
+    border-radius: 5px; /* Adjust border radius as needed */
+    max-width: calc(50% - 20px); /* Ensure each box takes up at most half of the container width */
+    word-wrap: break-word; 
+}
+
+
+.text-overlay {
+    position: inherit; 
+    top: 0;
+    left: 0;
+    transform: translate(3%, 50%); /* Adjust as needed */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+
+
